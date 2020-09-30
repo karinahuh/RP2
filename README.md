@@ -1,1 +1,2 @@
-# RP2
+# RPII
+Plataforma para conectar mulheres
