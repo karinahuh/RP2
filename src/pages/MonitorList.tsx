@@ -3,12 +3,15 @@ import MonitorCard from '../components/MonitorCard'
 import React from 'react'
 import { createStyles, makeStyles } from '@material-ui/core/styles'
 import { Typography, Grid } from '@material-ui/core'
+import Header from '../components/Header'
 
 export default function LessonList() {
 
   const classes = useStyles()
 
   return (
+    <>
+    <Header/>
     <div className={classes.root}>
       <Grid container spacing={3}>
         <Grid item xs={12}>
@@ -17,6 +20,7 @@ export default function LessonList() {
         <MonitorCard name='Carol' description='oi' link='ushaish'/>
       </Grid>
     </div>
+    </>
   )
 }
 

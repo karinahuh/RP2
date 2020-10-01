@@ -4,12 +4,15 @@ import { createStyles, makeStyles } from '@material-ui/core/styles'
 import Button from '@material-ui/core/Button'
 import { Typography, Card } from '@material-ui/core'
 import TextField from '@material-ui/core/TextField'
+import Header from '../components/Header'
 
 export default function MonitorForm() {
 
   const classes = useStyles()
 
   return (
+    <>
+    <Header/>
     <Card className={classes.root}>
       <Typography variant='h3'>Cadastro de Monitora</Typography>
       <TextField
@@ -50,6 +53,7 @@ export default function MonitorForm() {
           Salvar Cadastro
       </Button>
     </Card>
+    </>
   )
 }
 
