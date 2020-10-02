@@ -17,7 +17,7 @@ export default function LessonList() {
         <Grid item xs={12}>
           <Typography variant='h3' color='textPrimary'>Aulas disponíveis</Typography>
         </Grid>
-        <MonitorCard name='Carol' description='oi' link='ushaish'/>
+        <MonitorCard name='Carol' description='Oi' link='www.facebook.com.br'/>
       </Grid>
     </div>
     </>

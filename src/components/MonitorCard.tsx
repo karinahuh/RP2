@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography'
 import TeacherImg from '../assets/images/Carol.jpg'
 import Button from '@material-ui/core/Button'
 import Avatar from '@material-ui/core/Avatar';
+import Link from '@material-ui/core/Link';
 
 type LessonCardProps = {
   name: string
@@ -48,20 +49,21 @@ export default function MonitorCard({ name, description, link }:LessonCardProps)
     <Card className={classes.root}>
        <CardHeader 
         avatar={
-          <Avatar alt="Remy Sharp" src={TeacherImg} className={classes.imageSize} />
+          <Avatar alt="Carol" src={TeacherImg} className={classes.imageSize} />
         }
         titleTypographyProps={{variant:'h4' }}
         title='Carol'
       />    
       <CardContent>
-        <Typography variant='body2' component='p'>
-          {description}
-          <br/>
-          {link}
+        <Typography variant='body2' component='p' align='center'>
+         {description}<br />
+         <Link href="https://facebook.com.br">
+            {link}
+          </Link>
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <Button className={classes.button} variant='contained' color='secondary' >Ver aula</Button>
+        <Button className={classes.button} variant='contained' color='secondary'>Ver aula</Button>
       </CardActions>
     </Card>
   )

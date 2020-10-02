@@ -23,11 +23,6 @@ const options = [
   'Cadastro de professor',
   'Configurações',
   'Ganymede',
-  'Hangouts Call',
-  'Hangouts Call',
-  'Hangouts Call',
-  'Hangouts Call',
-  'Hangouts Call',
 ]
 
 export default function Header() {
