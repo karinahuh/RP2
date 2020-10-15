@@ -13,12 +13,19 @@ export default function LessonList() {
     <>
     <Header/>
     <div className={classes.root}>
-      <Grid container spacing={3}>
-        <Grid item xs={12}>
-          <Typography variant='h3' color='textPrimary'>Aulas disponíveis</Typography>
-        </Grid>
+    <Typography variant='h3' color='primary'>Aulas disponíveis</Typography>
+
+    <Grid container spacing={3}>
+      <Grid container item xs={3}>
+       <MonitorCard name='Carol' description='Oi' link='www.facebook.com.br'/>
+      </Grid>
+      <Grid container item xs={3}>
         <MonitorCard name='Carol' description='Oi' link='www.facebook.com.br'/>
       </Grid>
+      <Grid container item xs={3}>
+        <MonitorCard name='Carol' description='Oi' link='www.facebook.com.br'/>
+      </Grid>
+    </Grid>
     </div>
     </>
   )
