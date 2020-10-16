@@ -13,16 +13,31 @@ export default function LessonList() {
     <>
     <Header/>
     <div className={classes.root}>
-    <Typography variant='h3' color='primary'>Aulas disponíveis</Typography>
+    <Typography variant='h3' color='primary' > Nossas Tutoras </Typography>
+    <br></br>
+    <br></br>
 
-    <Grid container spacing={3}>
-      <Grid container item xs={3}>
+    <Grid container spacing={4}>
+      <Grid container item xs={4}>
        <MonitorCard name='Carol' description='Oi' link='www.facebook.com.br'/>
       </Grid>
-      <Grid container item xs={3}>
+      <Grid container item xs={4}>
         <MonitorCard name='Carol' description='Oi' link='www.facebook.com.br'/>
       </Grid>
-      <Grid container item xs={3}>
+      <Grid container item xs={4}>
+        <MonitorCard name='Carol' description='Oi' link='www.facebook.com.br'/>
+      </Grid>
+    </Grid>
+    <br></br>
+    <br></br>
+    <Grid container spacing={4}>
+      <Grid container item xs={4}>
+       <MonitorCard name='Carol' description='Oi' link='www.facebook.com.br'/>
+      </Grid>
+      <Grid container item xs={4}>
+        <MonitorCard name='Carol' description='Oi' link='www.facebook.com.br'/>
+      </Grid>
+      <Grid container item xs={4}>
         <MonitorCard name='Carol' description='Oi' link='www.facebook.com.br'/>
       </Grid>
     </Grid>
@@ -37,7 +52,7 @@ const useStyles = makeStyles(() =>
       display: 'flex',
       flexDirection: 'column',
       padding: '2rem',
-      alignItems: 'center',
+      alignItems: 'left',
       borderRadius: 15,
       margin: '4rem',
     },

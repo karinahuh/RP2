@@ -19,7 +19,7 @@ type LessonCardProps = {
 const useStyles = makeStyles(() =>
   createStyles({
     root: {
-      maxWidth: '15rem',
+      maxWidth: '18rem',
       height: '20rem',
       borderRadius: 15,
     },
@@ -30,8 +30,8 @@ const useStyles = makeStyles(() =>
     button: {
       width: '250px',
       height: '50px',
-      marginLeft: '3.2rem',
-      marginRight: '3.2rem',
+      marginLeft: '2rem',
+      marginRight: '2rem',
       fontWeight: 6000,
       borderRadius: 15,
     },
@@ -51,7 +51,7 @@ export default function MonitorCard({ name, description, link }:LessonCardProps)
         avatar={
           <Avatar alt="Carol" src={TeacherImg} className={classes.imageSize} />
         }
-        titleTypographyProps={{variant:'h4' }}
+        titleTypographyProps={{variant:'h4'}}
         title='Carol'
       />    
       <CardContent>
