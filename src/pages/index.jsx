@@ -1,6 +1,14 @@
 import React from 'react';
+import {useHistory} from 'react-router-dom';
+import menuImg from '../assets/images/menuImg.png'
 
 export default function NossasMonitoras() {
+  const history = useHistory();
+
+  function menu() {
+      history.push('/cadastro-menu')
+  }
+
   return(
     <html>
       <body>
@@ -11,8 +19,7 @@ export default function NossasMonitoras() {
           <div id="e67_68"></div>
           <div id="e67_67"></div>
           <div id="e67_66"></div>
-          <div id="e67_70"></div><span id="e67_38">Monitoras de
-      Tecnologia</span>
+          <div id="e67_70"></div><span id="e67_38">Monitoras de Tecnologia</span>
           <div id="e310_77">
             <div id="e67_34"></div><span id="e67_36">Conheça nossas mentoras</span>
           </div>
@@ -53,7 +60,9 @@ export default function NossasMonitoras() {
           <div id="e167_7"></div><span id="e167_8">Inscreva-se</span>
         </div><span id="e167_9">L O V E L A C E</span>
         <div id="e167_10">
-          <div id="ei167_10_67_29"></div>
+        <button id="ei167_10_67_29" onClick={menu}>
+          <img src={menuImg} alt="Menu" width='0.2rem' height/>
+        </button>
         </div>
         <div id="e167_11"></div>
         <div id="e167_12"></div>
