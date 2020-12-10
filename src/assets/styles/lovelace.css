@@ -31,7 +31,7 @@
 	position:absolute;
 	left:84px;
 	top:159px;
-	background-image:url(images/erectangle.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -42,7 +42,7 @@
 	position:absolute;
 	left:310px;
 	top:156px;
-	background-image:url(images/erectangle.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -53,7 +53,7 @@
 	position:absolute;
 	left:184px;
 	top:152px;
-	background-image:url(images/erectangle.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -64,7 +64,7 @@
 	position:absolute;
 	left:777px;
 	top:39px;
-	background-image:url(images/erectangle.png);
+/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -75,7 +75,7 @@
 	position:absolute;
 	left:0px;
 	top:161px;
-	background-image:url(images/erectangle.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -400,7 +400,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/erectangle_35.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -460,7 +460,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/erectangle_55.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -506,7 +506,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/erectangle_46.png);
+/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -566,7 +566,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/erectangle_19.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -815,7 +815,7 @@
 	position:absolute;
 	left:19px;
 	top:22px;
-	background-image:url(images/efoto_kat.png);
+	/*background-image:url(images/efoto_carol.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -899,7 +899,7 @@
 	position:absolute;
 	left:20px;
 	top:22px;
-	background-image:url(images/efoto_julia.png);
+	/*background-image:url(images/efoto_carol.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -955,7 +955,7 @@
 	position:absolute;
 	left:23px;
 	top:22px;
-	background-image:url(images/efoto_carol.png);
+	/*background-image:url(images/efoto_carol.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -983,7 +983,7 @@
 	position:absolute;
 	left:19px;
 	top:22px;
-	background-image:url(images/efoto_karina.png);
+	/*background-image:url(images/efoto_carol.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -1039,7 +1039,7 @@
 	position:absolute;
 	left:20px;
 	top:22px;
-	background-image:url(images/efoto_yasmin.png);
+	/*background-image:url(images/efoto_carol.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -1095,7 +1095,7 @@
 	position:absolute;
 	left:23px;
 	top:22px;
-	background-image:url(images/efoto_luana.png);
+	/*background-image:url(images/efoto_carol.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -2025,7 +2025,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/eimagem_pyladies.png);
+	/*background-image:url(images/efoto_carol.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -2085,7 +2085,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/eimagem_vai_ter_menina.png);
+	/*background-image:url(images/efoto_carol.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -2145,7 +2145,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/eimagem_ssi.png);
+	/*background-image:url(images/efoto_carol.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -2277,7 +2277,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/eimagem_roadsec.png);
+	/*background-image:url(images/efoto_carol.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -3856,7 +3856,7 @@
 	position:absolute;
 	left:815px;
 	top:184px;
-	background-image:url(images/erectangle.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -3881,7 +3881,7 @@
 	position:absolute;
 	left:222px;
 	top:297px;
-	background-image:url(images/erectangle.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -3892,7 +3892,7 @@
 	position:absolute;
 	left:348px;
 	top:301px;
-	background-image:url(images/erectangle.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -3903,7 +3903,7 @@
 	position:absolute;
 	left:38px;
 	top:306px;
-	background-image:url(images/erectangle.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -3914,7 +3914,7 @@
 	position:absolute;
 	left:122px;
 	top:304px;
-	background-image:url(images/erectangle.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -3938,7 +3938,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/erectangle_35.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -3990,7 +3990,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/erectangle_55.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -4042,7 +4042,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/erectangle_46.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -4094,7 +4094,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/erectangle_19.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -5449,7 +5449,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/erectangle_16.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -5464,7 +5464,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/erectangle_19.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -5479,7 +5479,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/erectangle_18.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -5596,7 +5596,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/erectangle_46.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -6256,7 +6256,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/erectangle_16.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -6271,7 +6271,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/erectangle_19.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -6286,7 +6286,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/erectangle_18.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -6403,7 +6403,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	background-image:url(images/erectangle_46.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -6665,7 +6665,7 @@
 	position:absolute;
 	left:342px;
 	top:328px;
-	background-image:url(images/erectangle_55.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -7144,7 +7144,7 @@
 	position:absolute;
 	left:175px;
 	top:1001px;
-	background-image:url(images/erectangle_16.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -7155,7 +7155,7 @@
 	position:absolute;
 	left:1036px;
 	top:1001px;
-	background-image:url(images/erectangle_17.png);
+/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -7166,7 +7166,7 @@
 	position:absolute;
 	left:614px;
 	top:1001px;
-	background-image:url(images/erectangle_18.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -7288,7 +7288,7 @@
 	position:absolute;
 	left:175px;
 	top:1467px;
-	background-image:url(images/erectangle_25.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -7299,7 +7299,7 @@
 	position:absolute;
 	left:1036px;
 	top:1467px;
-	background-image:url(images/erectangle_26.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -7310,7 +7310,7 @@
 	position:absolute;
 	left:614px;
 	top:1467px;
-	background-image:url(images/erectangle_27.png);
+	/*background-image:url(images/erectangle.png);*/
 	background-repeat:no-repeat;
 	background-size:cover;
 }
