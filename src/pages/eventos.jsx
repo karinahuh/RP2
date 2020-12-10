@@ -1,6 +1,37 @@
 import React from 'react';
+import {useHistory} from 'react-router-dom';
 
 export default function NossasMonitoras() {
+  const history = useHistory();
+
+  function menu() {
+      history.push('/eventos-menu')
+  }
+
+  function inscrever() {
+    history.push('/cadastro')
+}
+
+function inicio() {
+  history.push('/')
+}
+
+function sobre() {
+  history.push('/sobre-nos')
+}
+
+function monitora() {
+  history.push('/nossas-monitoras')
+}
+
+function evento() {
+  history.push('/eventos')
+}
+
+function detalhe() {
+  history.push('/detalhe-evento')
+}
+
   return(
   <html>
     <body>
@@ -15,7 +46,7 @@ export default function NossasMonitoras() {
             </div>
             <div id="e310_105">
               <div id="e193_14"></div>
-              <div id="e193_15"></div><span id="e193_25">Online</span><span id="e193_21">SSI</span>
+              <div id="e193_15" onclick={detalhe}></div><span id="e193_25">Online</span><span id="e193_21">SSI</span>
             </div>
             <div id="e310_106">
               <div id="e201_0"></div>
@@ -39,10 +70,10 @@ export default function NossasMonitoras() {
           </span>
             </div><span id="e193_51">Eventos de tecnologia</span>
             <div id="e254_38">
-              <div id="ei254_38_238_140"></div><span id="ei254_38_238_141">Início</span><span id="ei254_38_238_142">Sobre</span>
-              <div id="ei254_38_238_143"></div><span id="ei254_38_238_144">Inscreva-se</span><span id="ei254_38_238_145">L O V E L A C E</span>
+              <div id="ei254_38_238_140"></div><span id="ei254_38_238_141" onClick={inicio}>Início</span><span id="ei254_38_238_142" onClick={sobre}>Sobre</span>
+              <div id="ei254_38_238_143"></div><span id="ei254_38_238_144" onClick={inscrever}>Inscreva-se</span><span id="ei254_38_238_145">L O V E L A C E</span>
               <div id="ei254_38_238_146">
-                <div id="ei254_38_238_146_67_29"></div>
+                <div id="ei254_38_238_146_67_29" onClick={menu}></div>
               </div>
               <div id="ei254_38_238_147"></div>
               <div id="ei254_38_238_148"></div>

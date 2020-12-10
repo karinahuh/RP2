@@ -1,6 +1,37 @@
 import React from 'react';
+import {useHistory} from 'react-router-dom';
 
 export default function NossasMonitoras() {
+  const history = useHistory();
+
+  function menu() {
+      history.push('/menu-inicial')
+  }
+
+  function inscrever() {
+    history.push('/cadastro')
+}
+
+function inicio() {
+  history.push('/')
+}
+
+function sobre() {
+  history.push('/sobre-nos')
+}
+
+function monitora() {
+  history.push('/nossas-monitoras')
+}
+
+function evento() {
+  history.push('/eventos')
+}
+
+function detalhe() {
+  history.push('/detalhe-evento')
+}
+
   return(
     <div id="e238_0">
       <div id="e310_112">
@@ -56,10 +87,10 @@ export default function NossasMonitoras() {
         <div id="e238_43"></div>
       </div><span id="e238_60">Nossas Monitoras e Mentoras</span>
       <div id="e254_18">
-        <div id="e238_140"></div><span id="e238_141">Início</span><span id="e238_142">Sobre</span>
-        <div id="e238_143"></div><span id="e238_144">Inscreva-se</span><span id="e238_145">L O V E L A C E</span>
+        <div id="e238_140"></div><span id="e238_141" onClick={inicio}>Início</span><span id="e238_142" onClick={sobre}>Sobre</span>
+        <div id="e238_143" onClick={inscrever}><span id="e238_144">Inscreva-se</span></div><span id="e238_145">L O V E L A C E</span>
         <div id="e238_146">
-          <div id="ei238_146_67_29"></div>
+          <div id="ei238_146_67_29" onClick={menu}></div>
         </div>
         <div id="e238_147"></div>
         <div id="e238_148"></div>

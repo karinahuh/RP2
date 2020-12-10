@@ -1,6 +1,24 @@
 import React from 'react';
+import {useHistory} from 'react-router-dom';
 
 export default function NossasMonitoras() {
+  const history = useHistory();
+
+  function menu() {
+      history.push('/cadastro-menu')
+  }
+
+  function inscrever() {
+    history.push('/cadastro')
+  }
+
+  function inicio() {
+  history.push('/')
+  }
+
+  function sobre() {
+  history.push('/sobre-nos')
+  }
   return(
   <html>
     <body>
@@ -36,10 +54,10 @@ export default function NossasMonitoras() {
       
       Para participar é necessário preencher algumas informações sobre você!</span><span id="e155_35">Criar Perfil</span>
         <div id="e254_74">
-          <div id="ei254_74_238_140"></div><span id="ei254_74_238_141">Início</span><span id="ei254_74_238_142">Sobre</span>
-          <div id="ei254_74_238_143"></div><span id="ei254_74_238_144">Inscreva-se</span><span id="ei254_74_238_145">L O V E L A C E</span>
+          <div id="ei254_74_238_140"></div><span id="ei254_74_238_141"  onClick={inicio}>Início</span><span id="ei254_74_238_142"  onClick={sobre}>Sobre</span>
+          <div id="ei254_74_238_143"></div><span id="ei254_74_238_144" onClick={inscrever}>Inscreva-se</span><span id="ei254_74_238_145">L O V E L A C E</span>
           <div id="ei254_74_238_146">
-            <div id="ei254_74_238_146_67_29"></div>
+            <div id="ei254_74_238_146_67_29" onClick={menu}></div>
           </div>
           <div id="ei254_74_238_147"></div>
           <div id="ei254_74_238_148"></div>

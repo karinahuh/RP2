@@ -1,6 +1,27 @@
 import React from 'react';
+import {useHistory} from 'react-router-dom';
 
 export default function NossasMonitoras() {
+  const history = useHistory();
+
+  function inscrever() {
+    history.push('/cadastro')
+  }
+
+  function inicio() {
+  history.push('/')
+  }
+
+  function sobre() {
+  history.push('/sobre-nos')
+  }
+  function evento() {
+    history.push('/eventos')
+  }
+  function monitora() {
+    history.push('/nossas-monitoras')
+  }
+
   return(
   <html>
     <body>
@@ -31,28 +52,28 @@ export default function NossasMonitoras() {
             <div id="e284_58"></div>
             <div id="e284_59"></div><span id="e284_60">Meetup Pyladies</span><span id="e284_61">Online</span>
             <div id="e284_78"></div>
-            <div id="e287_104"></div><span id="e287_105">Castro monitora</span><span id="e287_106">Sobre nos</span><span id="e287_107">Nossas monitoras</span><span id="e287_108">Eventos</span>
+            <div id="e287_104"></div><span id="e287_105" >Casdastro monitora</span><span id="e287_106">Sobre nos</span><span id="e287_107">Nossas monitoras</span><span id="e287_108">Eventos</span>
             <div id="e287_109"></div>
             <div id="e287_110"></div>
             <div id="e287_111"></div>
             <div id="e287_112"></div>
-            <div id="e287_113"></div><span id="e287_114">Castro monitora</span><span id="e287_115">Sobre nos</span><span id="e287_116">Nossas monitoras</span><span id="e287_117">Eventos</span>
+            <div id="e287_113"></div><span id="e287_114" onClick={inscrever}>Cadastro monitora</span><span id="e287_115">Sobre nos</span><span id="e287_116">Nossas monitoras</span><span id="e287_117">Eventos</span>
             <div id="e287_118"></div>
             <div id="e287_119"></div>
             <div id="e287_120"></div>
-            <div id="e287_121"></div><span id="e287_125">Sobre nós</span><span id="e287_126">Nossas monitoras</span><span id="e287_127">Eventos</span>
+            <div id="e287_121"></div><span id="e287_125" onClick={sobre}>Sobre nós</span><span id="e287_126" onClick={monitora}>Nossas monitoras</span><span id="e287_127" onClick={evento}>Eventos</span>
             <div id="e287_128"></div>
             <div id="e287_129"></div>
             <div id="e287_130"></div>
             <div id="e287_131"></div>
             <div id="e284_62">
               <div id="ei284_62_167_4"></div>
-            </div><span id="e284_63">Início</span><span id="e284_64">Sobre</span>
+            </div><span id="e284_63" onClick={inicio}>Início</span><span id="e284_64" onClick={sobre}>Sobre</span>
             <div id="e297_76">
-              <div id="e284_65"></div><span id="e284_66">Inscreva-se</span>
+              <div id="e284_65" onClick={inscrever}><span id="e284_66">Inscreva-se</span></div>
             </div><span id="e284_67">L O V E L A C E</span>
             <div id="e284_68">
-              <div id="ei284_68_67_29"></div>
+              <div id="ei284_68_67_29" onClick={inicio}></div>
             </div>
             <div id="e284_69"></div>
             <div id="e284_70"></div>

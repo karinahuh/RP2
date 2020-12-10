@@ -1,6 +1,32 @@
 import React from 'react';
+import {useHistory} from 'react-router-dom';
 
 export default function NossasMonitoras() {
+  const history = useHistory();
+
+  function inscrever() {
+    history.push('/cadastro')
+}
+
+function inicio() {
+  history.push('/')
+}
+
+function sobre() {
+  history.push('/sobre-nos')
+}
+
+function monitora() {
+  history.push('/nossas-monitoras')
+}
+
+function evento() {
+  history.push('/eventos')
+}
+
+function detalhe() {
+  history.push('/detalhe-evento')
+}
   return(
   <html>
     <body>
@@ -24,12 +50,12 @@ export default function NossasMonitoras() {
             <div id="e201_48"></div><span id="e201_49">Online</span><span id="e201_50">Online</span>
             <div id="e201_51">
               <div id="ei201_51_167_4"></div>
-            </div><span id="e201_52">Início</span><span id="e201_53">Sobre</span>
+            </div><span id="e201_52" onClick={inicio}>Início</span><span id="e201_53" onClick={sobre}>Sobre</span>
             <div id="e310_129">
-              <div id="e201_54"></div><span id="e201_55">Inscreva-se</span>
+              <div id="e201_54" onClick={inscrever}><span id="e201_55">Inscreva-se</span></div>
             </div><span id="e201_56">L O V E L A C E</span>
             <div id="e201_57">
-              <div id="ei201_57_67_29"></div>
+              <div id="ei201_57_67_29" onClick={evento}></div>
             </div>
             <div id="e201_58"></div>
             <div id="e201_59"></div>
@@ -40,11 +66,11 @@ export default function NossasMonitoras() {
             <div id="e201_74"></div>
             <div id="e201_75"></div>
             <div id="e201_76"></div>
-            <div id="e201_77"></div><span id="e201_80">Sobre nós</span><span id="e201_81">Nossas monitoras</span><span id="e201_82">Eventos</span>
+            <div id="e201_77"></div><span id="e201_80" onClick={sobre}>Sobre nós</span><span id="e201_81" onClick={monitora}>Nossas monitoras</span><span id="e201_82" onClick={evento}>Eventos</span>
             <div id="e201_83"></div>
             <div id="e201_84"></div>
             <div id="e201_85"></div>
-            <div id="e201_86"></div><span id="e201_79">Cadastro monitora</span>
+            <div id="e201_86"></div><span id="e201_79" onClick={inscrever}>Cadastro monitora</span>
           </div>
     </body>
   </html>

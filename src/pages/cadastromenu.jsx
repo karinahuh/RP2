@@ -1,6 +1,32 @@
 import React from 'react';
+import {useHistory} from 'react-router-dom';
 
 export default function NossasMonitoras() {
+  const history = useHistory();
+
+  function menu() {
+      history.push('/menu-inicial')
+  }
+
+  function inscrever() {
+    history.push('/cadastro')
+}
+
+function inicio() {
+  history.push('/')
+}
+
+function sobre() {
+  history.push('/sobre-nos')
+}
+
+function monitora() {
+  history.push('/nossas-monitoras')
+}
+
+function evento() {
+  history.push('/eventos')
+}
   return(
   <html>
     <body>
@@ -16,10 +42,10 @@ export default function NossasMonitoras() {
             <div id="e202_131"></div><span id="e202_132">Contato (pode ser email, links de redes sociais)</span><span id="e202_133">Adicionar foto de perfil</span><span id="e202_134">Cadastro</span><span id="e202_135">Bem-vinda
           
           Para participar é necessário preencher algumas informações sobre você!</span><span id="e202_136">Criar Perfil</span>
-            <div id="e202_137"></div><span id="e202_138">Início</span><span id="e202_139">Sobre</span>
+            <div id="e202_137"></div><span id="e202_138" onClick={inicio}>Início</span><span id="e202_139" onClick={sobre}>Sobre</span>
             <div id="e202_140"></div><span id="e202_141">Inscreva-se</span><span id="e202_142">L O V E L A C E</span>
             <div id="e202_143">
-              <div id="ei202_143_67_29"></div>
+              <div id="ei202_143_67_29" onClick={inscrever}></div>
             </div>
             <div id="e202_144"></div>
             <div id="e202_145"></div>
@@ -36,7 +62,7 @@ export default function NossasMonitoras() {
             <div id="e202_168"></div>
             <div id="e202_169"></div>
             <div id="e202_170"></div>
-            <div id="e202_171"></div><span id="e202_172">Cadastro monitora</span><span id="e202_173">Sobre nós</span><span id="e202_174">Nossas monitoras</span><span id="e202_175">Eventos</span>
+            <div id="e202_171"></div><span id="e202_172" onClick={inscrever}>Cadastro monitora</span><span id="e202_173" onClick={sobre}>Sobre nós</span><span id="e202_174" onClick={monitora}>Nossas monitoras</span><span id="e202_175" onClick={evento}>Eventos</span>
             <div id="e202_176"></div>
             <div id="e202_177"></div>
             <div id="e202_178"></div>

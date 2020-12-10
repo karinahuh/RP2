@@ -1,6 +1,36 @@
 import React from 'react';
+import {useHistory} from 'react-router-dom';
 
 export default function NossasMonitoras() {
+  const history = useHistory();
+
+  function menu() {
+      history.push('/sobre-nos-menu')
+  }
+
+  function inscrever() {
+    history.push('/cadastro')
+}
+
+function inicio() {
+  history.push('/')
+}
+
+function sobre() {
+  history.push('/sobre-nos')
+}
+
+function monitora() {
+  history.push('/nossas-monitoras')
+}
+
+function evento() {
+  history.push('/eventos')
+}
+
+function detalhe() {
+  history.push('/detalhe-evento')
+}
   return(
   <html>
     <body>
@@ -38,12 +68,12 @@ export default function NossasMonitoras() {
         <div id="e310_92">
           <div id="e136_5"></div><span id="e136_6">A Condessa de Lovelace, conhecida como Ada Lovelace, nasceu em 1815. Foi uma grande matemática de seu tempo e criou o primeiro algoritmo para ser processado por uma máquina, sendo a primeira programadora da história. Sim, Lovelace foi a primeira pessoa programadora de todos os tempos, e não apenas a primeira mulher a escrever um código.</span>
         </div>
-        <div id="e133_0"></div><span id="e132_3">Início</span><span id="e132_4">Sobre</span>
+        <div id="e133_0"></div><span id="e132_3" onClick={inicio}>Início</span><span id="e132_4" onClick={sobre}>Sobre</span>
         <div id="e310_84">
-          <div id="e132_6"></div><span id="e132_7">Inscreva-se</span>
+          <div id="e132_6" onClick={inscrever}><span id="e132_7">Inscreva-se</span></div>
         </div><span id="e132_8">L O V E L A C E</span>
         <div id="e132_9">
-          <div id="ei132_9_67_29"></div>
+          <div id="ei132_9_67_29" onClick={menu}></div>
         </div>
         <div id="e132_37"></div>
         <div id="e132_38"></div>

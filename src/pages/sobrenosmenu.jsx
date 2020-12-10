@@ -1,14 +1,44 @@
 import React from 'react';
+import {useHistory} from 'react-router-dom';
 
 export default function NossasMonitoras() {
+  const history = useHistory();
+
+  function menu() {
+      history.push('/sobre-nos-menu')
+  }
+
+  function inscrever() {
+    history.push('/cadastro')
+}
+
+function inicio() {
+  history.push('/')
+}
+
+function sobre() {
+  history.push('/sobre-nos')
+}
+
+function monitora() {
+  history.push('/nossas-monitoras')
+}
+
+function evento() {
+  history.push('/eventos')
+}
+
+function detalhe() {
+  history.push('/detalhe-evento')
+}
   return(
   <html>
     <body>
         <div id="e202_9">
-            <div id="e202_10"></div><span id="e202_11">Início</span><span id="e202_12">Sobre</span>
+            <div id="e202_10"></div><span id="e202_11" onClick={inicio}>Início</span><span id="e202_12" onClick={sobre}>Sobre</span>
             <div id="e202_13"></div><span id="e202_14">Inscreva-se</span><span id="e202_15">L O V E L A C E</span>
             <div id="e202_16">
-              <div id="ei202_16_67_29"></div>
+              <div id="ei202_16_67_29" onClick={sobre}></div>
             </div>
             <div id="e202_17"></div>
             <div id="e202_18"></div>
@@ -42,7 +72,7 @@ export default function NossasMonitoras() {
             <div id="e202_85"></div>
             <div id="e202_86"></div>
             <div id="e202_87"></div>
-            <div id="e202_70"></div><span id="e202_71">Cadastro monitora</span><span id="e202_72">Sobre nós</span><span id="e202_73">Nossas monitoras</span><span id="e202_74">Eventos</span>
+            <div id="e202_70"></div><span id="e202_71" onClick={inscrever}>Cadastro monitora</span><span id="e202_72" onClick={sobre}>Sobre nós</span><span id="e202_73" onClick={monitora}>Nossas monitoras</span><span id="e202_74" onClick={evento}>Eventos</span>
             <div id="e202_75"></div>
             <div id="e202_76"></div>
             <div id="e202_77"></div>
