@@ -19,6 +19,9 @@ export default function AboutUs() {
       <>
       <Header/>
       <div className={classes.root}>
+      <Typography variant='h3' color='primary'>Sobre o Projeto</Typography>
+      <Typography variant='h6' color='primary'>Observamos que as mulheres não se sentem estimuladas a ingressar na área detecnologia por falta de modelos e as poucas que adentram se sentem menos avontade em seus ambientes de ensino e trabalho por falta outra mulheres,  ou seja, estes fatores que tornam o ambiente pouco acolhedor e propenso a evasão. Com isso o objetivo geral ́e incentivar mulheres nas áreas de computação e aumentar a conexões entre aquelas que já se encontram nessas áreas</Typography>
+      <Typography variant='h3' color='primary'>  </Typography>
       <Typography variant='h3' color='primary'>Sobre nos</Typography>
       <Grid container spacing={3}>
         <Grid container item xs={3}>
