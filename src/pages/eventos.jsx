@@ -1,5 +1,9 @@
 import React from 'react';
 import {useHistory} from 'react-router-dom';
+import Erectangle55 from '../assets/images/erectangle_55.png'
+import Erectangle19 from '../assets/images/erectangle_19.png'
+import Erectangle35 from '../assets/images/erectangle_35.png'
+import Erectangle46 from '../assets/images/erectangle_46.png'
 
 export default function NossasMonitoras() {
   const history = useHistory();
@@ -38,15 +42,15 @@ function detalhe() {
         <div id="e193_7">
             <div id="e310_102">
               <div id="e193_52"></div>
-              <div id="e193_17"></div><span id="e193_24">Meetup Pyladies</span><span id="e193_28">Online</span>
+              <img id="e193_17" src={Erectangle19}></img><span id="e193_24">Meetup Pyladies</span><span id="e193_28">Online</span>
             </div>
             <div id="e310_104">
               <div id="e193_13"></div>
-              <div id="e193_18"></div><span id="e193_22">Vai ter menina na ciência</span><span id="e193_26">Online</span>
+              <img id="e193_18" src={Erectangle55}></img><span id="e193_22">Vai ter menina na ciência</span><span id="e193_26">Online</span>
             </div>
             <div id="e310_105">
               <div id="e193_14"></div>
-              <div id="e193_15" onclick={detalhe}></div><span id="e193_25">Online</span><span id="e193_21">SSI</span>
+              <img id="e193_15" onclick={detalhe} src={Erectangle35}></img><span id="e193_25">Online</span><span id="e193_21">SSI</span>
             </div>
             <div id="e310_106">
               <div id="e201_0"></div>
@@ -54,7 +58,7 @@ function detalhe() {
             </div>
             <div id="e310_103">
               <div id="e193_73"></div><span id="e193_75">Roadsec</span>
-              <div id="e193_74"></div><span id="e193_76">Online</span>
+              <img id="e193_74" src={Erectangle46}></img><span id="e193_76">Online</span>
             </div>
             <div id="e310_107">
               <div id="e201_4"></div>

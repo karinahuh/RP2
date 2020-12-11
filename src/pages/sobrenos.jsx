@@ -1,5 +1,11 @@
 import React from 'react';
 import {useHistory} from 'react-router-dom';
+import CarolImg from '../assets/images/Carol.jpg';
+import JuliaImg from '../assets/images/Julia.jpeg';
+import KatImg from '../assets/images/katharina.jpeg';
+import LuanaImg from '../assets/images/luana.jpeg';
+import YasImg from '../assets/images/yasmin.jpeg';
+import KarinaImg from '../assets/images/karina.jpeg';
 
 export default function NossasMonitoras() {
   const history = useHistory();
@@ -37,27 +43,27 @@ function detalhe() {
     <div id="e132_2">
         <div id="e310_88">
           <div id="e132_14"></div>
-          <div id="e132_18"></div><span id="e132_29">Sou muitio esforçada e estudiosa</span><span id="e132_25">Katharina</span>
+          <img id="e132_18" src={KatImg} ></img><span id="e132_29">Sou muitio esforçada e estudiosa</span><span id="e132_25">Katharina</span>
         </div>
         <div id="e310_87">
           <div id="e132_15"></div><span id="e132_24">Julia Passos</span><span id="e132_28">Apoio vários projetos de programaço</span>
-          <div id="e132_20"></div>
+          <img id="e132_20" src={JuliaImg}></img>
         </div>
         <div id="e310_86">
           <div id="e132_16"></div><span id="e132_23">Carol Galvão</span><span id="e132_27">Amo aprender sobre programaço</span>
-          <div id="e132_17"></div>
+          <img id="e132_17" src={CarolImg}></img>
         </div>
         <div id="e310_91">
           <div id="e133_2"></div>
-          <div id="e133_6"></div><span id="e133_13">Quero ajudar todos a minha volta</span><span id="e133_10">Karina Huh</span>
+          <img id="e133_6" src={KarinaImg}></img><span id="e133_13">Quero ajudar todos a minha volta</span><span id="e133_10">Karina Huh</span>
         </div>
         <div id="e310_90">
           <div id="e133_3"></div>
-          <div id="e133_7"></div><span id="e133_9">Yasmin Sanches</span><span id="e133_12">Crio telas maravilhosas</span>
+          <img id="e133_7" src={YasImg}></img><span id="e133_9">Yasmin Sanches</span><span id="e133_12">Crio telas maravilhosas</span>
         </div>
         <div id="e310_89">
           <div id="e133_4"></div>
-          <div id="e133_5"></div><span id="e133_11">Gosto de usar o photoshop</span><span id="e133_8">Luana dos Santos</span>
+          <img id="e133_5" src={LuanaImg}></img><span id="e133_11">Gosto de usar o photoshop</span><span id="e133_8">Luana dos Santos</span>
         </div><span id="e133_14">Sobre o Projeto</span><span id="e136_1">Quem somos?</span><span id="e136_2">Quem foi Ada Lovelace? </span>
         <div id="e310_85">
           <div id="e133_15"></div><span id="e135_0">Somos 6 meninas da área de computação, experienciamos um cenário em que as mulheres são minoria nas faculdades,  15% das matrículas, e correspondem a apenas 17% do total de programadores no mercado. 

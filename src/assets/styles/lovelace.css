@@ -31,7 +31,7 @@
 	position:absolute;
 	left:84px;
 	top:159px;
-	/*background-image:url(images/erectangle.png);*/
+	background-image:url('/src/assets/images/erectangle.png');
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -42,7 +42,7 @@
 	position:absolute;
 	left:310px;
 	top:156px;
-	/*background-image:url(images/erectangle.png);*/
+	background-image:url('/src/assets/images/erectangle.png');
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -53,7 +53,7 @@
 	position:absolute;
 	left:184px;
 	top:152px;
-	/*background-image:url(images/erectangle.png);*/
+	background-image:url('/src/assets/images/erectangle.png');
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -64,7 +64,7 @@
 	position:absolute;
 	left:777px;
 	top:39px;
-/*background-image:url(images/erectangle.png);*/
+	background-image:url('/src/assets/images/erectangle.png');
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -75,7 +75,7 @@
 	position:absolute;
 	left:0px;
 	top:161px;
-	/*background-image:url(images/erectangle.png);*/
+	background-image:url('/src/assets/images/erectangle.png');
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -400,7 +400,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-	/*background-image:url(images/erectangle.png);*/
+	background-image:url('/src/assets/images/erectangle_55.png');
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -506,7 +506,7 @@
 	border-top-right-radius:109px;
 	border-bottom-left-radius:109px;
 	border-bottom-right-radius:109px;
-/*background-image:url(images/erectangle.png);*/
+	background-image:url('/src/assets/images/erectangle_19.png');
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -815,7 +815,7 @@
 	position:absolute;
 	left:19px;
 	top:22px;
-	/*background-image:url(images/efoto_carol.png);*/
+	background-image:url('/src/assets/images/katharina.jpeg');
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -899,7 +899,7 @@
 	position:absolute;
 	left:20px;
 	top:22px;
-	/*background-image:url(images/efoto_carol.png);*/
+	background-image:url('/src/assets/images/Julia.jpeg');
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -955,7 +955,7 @@
 	position:absolute;
 	left:23px;
 	top:22px;
-	/*background-image:url(images/efoto_carol.png);*/
+	background-image:url('/src/assets/images/Carol.jpg');
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -983,7 +983,7 @@
 	position:absolute;
 	left:19px;
 	top:22px;
-	/*background-image:url(images/efoto_carol.png);*/
+	background-image:url('/src/assets/images/karina.jpeg');
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -1039,7 +1039,7 @@
 	position:absolute;
 	left:20px;
 	top:22px;
-	/*background-image:url(images/efoto_carol.png);*/
+	background-image:url('/src/assets/images/yasmin.jpeg');
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -1095,7 +1095,7 @@
 	position:absolute;
 	left:23px;
 	top:22px;
-	/*background-image:url(images/efoto_carol.png);*/
+	background-image:url('/src/assets/images/luana.jpeg');
 	background-repeat:no-repeat;
 	background-size:cover;
 }

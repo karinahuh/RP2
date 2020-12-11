@@ -1,6 +1,11 @@
 import React from 'react';
 import {useHistory} from 'react-router-dom';
 import menuImg from '../assets/images/menuImg.png'
+import Erectangle from '../assets/images/erectangle.png'
+import Erectangle55 from '../assets/images/erectangle_55.png'
+import Erectangle19 from '../assets/images/erectangle_19.png'
+import Erectangle35 from '../assets/images/erectangle_35.png'
+import Erectangle46 from '../assets/images/erectangle_46.png'
 
 export default function NossasMonitoras() {
   const history = useHistory();
@@ -35,8 +40,8 @@ function evento() {
       <div id="e58_4">
         <div id="e310_133">
           <div id="e67_33"></div>
-          <div id="e67_71"></div>
-          <div id="e67_68"></div>
+          <img id="e67_71" src={Erectangle}></img>
+          <div id="e67_68" ></div>
           <div id="e67_67"></div>
           <div id="e67_66"></div>
           <div id="e67_70"></div><span id="e67_38">Monitoras de Tecnologia</span>
@@ -59,19 +64,19 @@ function evento() {
           <div id="e310_79">
             <div id="e284_0"></div>
           </div><span id="e284_2">SSI</span>
-          <div id="e284_1"></div><span id="e284_3">Online</span>
+          <img id="e284_1" src={Erectangle35} ></img><span id="e284_3">Online</span>
         </div>
         <div id="e310_81">
           <div id="e284_4"></div><span id="e284_6">Vai ter menina na ciência</span>
-          <div id="e284_5"></div><span id="e284_7">Online</span>
+          <img id="e284_5" src={Erectangle55} ></img><span id="e284_7">Online</span>
         </div>
         <div id="e310_82">
           <div id="e284_8"></div>
-          <div id="e284_9"></div><span id="e284_10">Roadsec</span><span id="e284_11">Online</span>
+          <img id="e284_9" src={Erectangle46}></img><span id="e284_10">Roadsec</span><span id="e284_11">Online</span>
         </div>
         <div id="e310_83">
           <div id="e284_12"></div>
-          <div id="e284_13"></div><span id="e284_14">Meetup Pyladies</span><span id="e284_15">Online</span>
+          <img id="e284_13" src={Erectangle19}></img><span id="e284_14">Meetup Pyladies</span><span id="e284_15">Online</span>
         </div>
         <div id="e169_3">
           <div id="e167_4"></div>
